@@ -1,3 +1,6 @@
+# Display
+debug.hwui.renderer=skiavk
+
 # Media
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_kalama.xml
