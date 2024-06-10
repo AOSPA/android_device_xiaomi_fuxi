@@ -1056,6 +1056,9 @@ odm/lib64/libgf_hal.so
 odm/etc/dolby/dax-default.xml
 odm/etc/dolby_vision.cfg
 
+# Sensors
+odm/lib64/libssccalapi@2.0.so
+
 # Sensors (Config)
 odm/etc/sensors/config/ak991x_dri_0.json
 odm/etc/sensors/config/kailua_qsh_ble_0.json
