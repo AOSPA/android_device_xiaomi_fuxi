@@ -119,7 +119,7 @@ vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
-vendor/lib/rfsa/adsp/nearby.napp_header
+vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
 # Audio (Configs)
@@ -832,7 +832,7 @@ odm/lib64/com.xiaomi.camhal.submodel.chifrag.so
 odm/lib64/libAF.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libMiMotion.so
-odm/lib64/libTrueSight.so
+odm/lib64/libTrueSight.so;DISABLE_CHECKELF
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
@@ -941,7 +941,7 @@ odm/lib64/libmmcamera_lscv35.so
 odm/lib64/libmmcamera_mfnr.so
 odm/lib64/libmmcamera_mfnr_t4.so
 odm/lib64/libmmcamera_pdpc.so
-odm/lib64/libmorpho_ubwc.so
+odm/lib64/libmorpho_ubwc.so;DISABLE_CHECKELF
 odm/lib64/libmorpho_video_stabilizer.so
 odm/lib64/libmpbase.so
 odm/lib64/libofflinefeatureintf.so
@@ -968,7 +968,6 @@ odm/lib64/libubifocus.so
 odm/lib64/libvideoBokeh.so
 odm/lib64/libvideofilter_only.so
 odm/lib64/libvideoml.so
-odm/lib64/libvideomode.so
 odm/lib64/libvidhance.so
 odm/lib64/libvidhance_active_ois.so
 odm/lib64/libvidhance_face_stabilizer.so
@@ -1046,7 +1045,7 @@ odm/etc/disp0/mdss_dsi_m3_38_0c_0a_dsc_cmd/mi_gc_3.txt
 odm/etc/df_default.xml
 
 # Fingerprint
-odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+odm/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 odm/lib64/libgf_hal.so
 
 # Media (Dolby Vision)
@@ -1062,8 +1061,6 @@ odm/etc/init/vendor.xiaomi.sensor.citsensorservice@2.0-service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@2.0-service.xml
 odm/etc/cit_param_config.json
 odm/lib64/hw/vendor.xiaomi.sensor.citsensorservice@2.0-impl.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.sensor.citsensorservice@2.0.so
 
 # Sensors (Config)
 odm/etc/sensors/config/ak991x_dri_0.json
