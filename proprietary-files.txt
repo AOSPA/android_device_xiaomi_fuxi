@@ -1,4 +1,4 @@
-# Unpinned blobs from fuxi_global-user 13 TKQ1.221114.001 V816.0.10.0.UMCMIXM release-keys
+# Unpinned blobs from fuxi_global-user 13 TKQ1.221114.001 OS2.0.2.0.VMCMIXM release-keys
 
 # ACDB
 odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
@@ -94,6 +94,7 @@ odm/mount/camera/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so:vendor/lib/rfsa/adsp/l
 odm/mount/camera/lib/rfsa/adsp/libmialgo_slow_motion_cdsp_skel.so:vendor/lib/rfsa/adsp/libmialgo_slow_motion_cdsp_skel.so
 vendor/lib/rfsa/adsp/capi_cirrus_sp.so
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
+vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libVppAisQnnHtp.so
@@ -207,12 +208,7 @@ odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eff
 odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/eye_pupil.bin
 odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/left_eye.bin
 odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/0_BrightEyeV3/right_eye.bin
-odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FaceMask.bin
-odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_first.bin
-odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/FacialSmoothMask_second.bin
-odm/etc/camera/resources/render/Effect/30_BasicRetouch/Effects/1_FacialSmooth/effectV2.json
 odm/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base.json
-odm/etc/camera/resources/render/Effect/30_BasicRetouch/mode_base_all.json
 odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_capture.json
 odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/effect_preview.json
 odm/etc/camera/resources/render/Effect/40_FaceStereo/Effects/0_ModeClassical/xr.bin
@@ -315,7 +311,6 @@ odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin
-odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin
 odm/etc/camera/resources/render/glsl/binShaders32/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin
@@ -397,7 +392,6 @@ odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_NEED_REFINE.bin
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT.bin
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_BASE_FUSE_OFFSET_Define_USE_SPLIT_NEED_REFINE.bin
-odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET.bin
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_EYE_FUSE_OFFSET_Define_NEED_REFINE.bin
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP.bin
 odm/etc/camera/resources/render/glsl/binShaders64/shader_GLPROGRAM_FACIALREFINE_V2_WARP_Define_DEF_CATMULL_ROM.bin
